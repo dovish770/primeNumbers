@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 20px;
+}
+
+.find_pair, #print_prime_div {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#input1, #input2 {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#answer, #answer2 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#print_prime_div ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#print_prime_div ul li {
+    padding: 5px;
+    background-color: #eef;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
